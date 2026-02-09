@@ -129,7 +129,7 @@
               </div>
             </div>
             <div class="col-lg-6 hero-media" data-aos="zoom-in" data-aos-delay="200">
-              <img src="{{ asset('front-assets/img/blog/blog2.jpg') }}" alt="Education" class="img-fluid main-image">
+              <img src="{{ asset('front-assets/img/home/header.jpg') }}" alt="Education" class="img-fluid main-image">
               <div class="image-overlay">
                 <div class="badge-accredited">
                   <i class="bi bi-patch-check-fill"></i>
@@ -258,7 +258,7 @@
 
           <div class="col-lg-6">
             <div class="about-image" data-aos="zoom-in" data-aos-delay="300">
-              <img src="{{ asset('front-assets/img/blog/chroma.jpg') }}" alt="Campus" class="img-fluid rounded">
+              <img src="{{ asset('front-assets/img/home/chroma.jpg') }}" alt="Campus" class="img-fluid rounded">
 
               <div class="mission-vision" data-aos="fade-up" data-aos-delay="400">
                 <div class="mission">
@@ -334,7 +334,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Featured Programs</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -343,14 +343,14 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <div class="program-banner">
               <div class="banner-image">
-                <img src="{{ asset('front-assets/img/education/campus-3.webp') }}" alt="Program" class="img-fluid" loading="lazy">
+                <img src="{{ asset('front-assets/img/home/art.jpg') }}" alt="Program" class="img-fluid" loading="lazy">
                 <div class="banner-badge">
                   <span class="badge-text">Popular</span>
                 </div>
               </div>
               <div class="banner-info">
                 <div class="program-header">
-                  <h3>Engineering &amp; Technology</h3>
+                  <h3>Painting Class</h3>
                   <div class="program-stats">
                     <span><i class="bi bi-people-fill"></i> 450+ Students</span>
                     <span><i class="bi bi-award-fill"></i> 95% Success Rate</span>
@@ -378,10 +378,10 @@
                 <div class="col-12" data-aos="fade-left" data-aos-delay="200">
                   <div class="program-item">
                     <div class="item-icon">
-                      <img src="{{ asset('front-assets/img/education/education-4.webp') }}" alt="Program" class="img-fluid">
+                      <img src="{{ asset('front-assets/img/home/yoga.jpg') }}" alt="Program" class="img-fluid">
                     </div>
                     <div class="item-content">
-                      <h4>Business Management</h4>
+                      <h4>Yoga Class & Sessions</h4>
                       <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
                       <div class="meta-info">
                         <span>3 Years</span>
@@ -397,10 +397,10 @@
                 <div class="col-12" data-aos="fade-left" data-aos-delay="300">
                   <div class="program-item">
                     <div class="item-icon">
-                      <img src="{{ asset('front-assets/img/education/education-6.webp') }}" alt="Program" class="img-fluid">
+                      <img src="{{ asset('front-assets/img/home/pottery.jpg') }}" alt="Program" class="img-fluid">
                     </div>
                     <div class="item-content">
-                      <h4>Digital Marketing</h4>
+                      <h4>Pottery Class </h4>
                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
                       <div class="meta-info">
                         <span>2 Years</span>
@@ -419,7 +419,7 @@
                       <img src="{{ asset('front-assets/img/education/education-8.webp') }}" alt="Program" class="img-fluid">
                     </div>
                     <div class="item-content">
-                      <h4>Health Sciences</h4>
+                      <h4>Karate Class</h4>
                       <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.</p>
                       <div class="meta-info">
                         <span>5 Years</span>
@@ -438,7 +438,7 @@
                       <img src="{{ asset('front-assets/img/education/education-10.webp') }}" alt="Program" class="img-fluid">
                     </div>
                     <div class="item-content">
-                      <h4>Creative Arts</h4>
+                      <h4>VocLal Class </h4>
                       <p>Et harum quidem rerum facilis est et expedita distinctio nam libero tempore.</p>
                       <div class="meta-info">
                         <span>3 Years</span>
@@ -460,132 +460,7 @@
 
     </section><!-- /Featured Programs Section -->
 
-    <!-- Students Life Block Section -->
-    <section id="students-life-block" class="students-life-block section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Students Life</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center g-5 mb-5">
-          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <div class="hero-image-wrapper">
-              <img src="{{ asset('front-assets/img/education/students-7.webp') }}" alt="Student Life" class="img-fluid main-image">
-              <div class="floating-card" data-aos="zoom-in" data-aos-delay="400">
-                <div class="card-icon">
-                  <i class="bi bi-people-fill"></i>
-                </div>
-                <div class="card-content">
-                  <span class="card-number">2500+</span>
-                  <span class="card-label">Active Students</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
-            <div class="content-wrapper">
-              <div class="section-badge" data-aos="fade-up" data-aos-delay="350">
-                <span>Student Life</span>
-              </div>
-              <h2 data-aos="fade-up" data-aos-delay="400">Vivamus consequat lorem at nisl laoreet commodo a ac lectus</h2>
-              <p class="lead-text" data-aos="fade-up" data-aos-delay="450">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-
-              <div class="info-grid" data-aos="fade-up" data-aos-delay="500">
-                <div class="info-item">
-                  <div class="info-icon">
-                    <i class="bi bi-calendar-event"></i>
-                  </div>
-                  <div class="info-text">
-                    <strong>Year-Round Events</strong>
-                    <span>Duis aute irure dolor in reprehenderit voluptate</span>
-                  </div>
-                </div>
-
-                <div class="info-item">
-                  <div class="info-icon">
-                    <i class="bi bi-award"></i>
-                  </div>
-                  <div class="info-text">
-                    <strong>Achievement Programs</strong>
-                    <span>Excepteur sint occaecat cupidatat non proident</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="cta-section" data-aos="fade-up" data-aos-delay="600">
-                <a href="student-activities.html" class="btn-primary">Discover More</a>
-                <a href="virtual-tour.html" class="btn-link">
-                  <i class="bi bi-play-circle"></i>
-                  <span>Take Virtual Tour</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="activities-showcase">
-          <div class="row g-4">
-            <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
-              <div class="featured-activity">
-                <div class="activity-media">
-                  <img src="{{ asset('front-assets/img/education/activities-2.webp') }}" alt="Featured Activity" class="img-fluid">
-                  <div class="activity-overlay">
-                    <div class="overlay-content">
-                      <h4>Student Organizations</h4>
-                      <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                      <a href="#" class="overlay-btn">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
-              <div class="activities-list">
-                <div class="activity-item" data-aos="slide-up" data-aos-delay="350">
-                  <div class="activity-thumb">
-                    <img src="{{ asset('front-assets/img/education/activities-6.webp') }}" alt="Research Projects" class="img-fluid">
-                  </div>
-                  <div class="activity-info">
-                    <h6>Research Projects</h6>
-                    <p>Sed ut perspiciatis unde omnis natus error</p>
-                  </div>
-                </div>
-
-                <div class="activity-item" data-aos="slide-up" data-aos-delay="400">
-                  <div class="activity-thumb">
-                    <img src="{{ asset('front-assets/img/education/activities-1.webp') }}" alt="Community Service" class="img-fluid">
-                  </div>
-                  <div class="activity-info">
-                    <h6>Community Service</h6>
-                    <p>At vero eos et accusamus et iusto odio</p>
-                  </div>
-                </div>
-
-                <div class="activity-item" data-aos="slide-up" data-aos-delay="450">
-                  <div class="activity-thumb">
-                    <img src="{{ asset('front-assets/img/education/activities-4.webp') }}" alt="Innovation Labs" class="img-fluid">
-                  </div>
-                  <div class="activity-info">
-                    <h6>Innovation Labs</h6>
-                    <p>Temporibus autem quibusdam officiis debitis</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Students Life Block Section -->
+    
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
@@ -768,289 +643,13 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <div class="intro-content" data-aos="fade-up" data-aos-delay="200">
-              <h2 class="section-heading">Transforming Lives Through Quality Education</h2>
-              <p class="section-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row g-4 mt-4">
-          <div class="col-xl-3 col-lg-6 col-md-6">
-            <div class="metric-card" data-aos="flip-left" data-aos-delay="300">
-              <div class="metric-header">
-                <div class="metric-icon-wrapper">
-                  <i class="bi bi-mortarboard-fill"></i>
-                </div>
-                <div class="metric-value">
-                  <span data-purecounter-start="0" data-purecounter-end="87" data-purecounter-duration="1" class="purecounter"></span>%
-                </div>
-              </div>
-              <div class="metric-info">
-                <h4>Success Rate</h4>
-                <p>Alumni employment within 6 months</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-6 col-md-6">
-            <div class="metric-card" data-aos="flip-left" data-aos-delay="400">
-              <div class="metric-header">
-                <div class="metric-icon-wrapper">
-                  <i class="bi bi-building"></i>
-                </div>
-                <div class="metric-value">
-                  <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                </div>
-              </div>
-              <div class="metric-info">
-                <h4>Campus Locations</h4>
-                <p>Across the country serving students</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-6 col-md-6">
-            <div class="metric-card" data-aos="flip-left" data-aos-delay="500">
-              <div class="metric-header">
-                <div class="metric-icon-wrapper">
-                  <i class="bi bi-trophy-fill"></i>
-                </div>
-                <div class="metric-value">
-                  <span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="1" class="purecounter"></span>+
-                </div>
-              </div>
-              <div class="metric-info">
-                <h4>Awards Received</h4>
-                <p>Recognition for educational excellence</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-6 col-md-6">
-            <div class="metric-card" data-aos="flip-left" data-aos-delay="600">
-              <div class="metric-header">
-                <div class="metric-icon-wrapper">
-                  <i class="bi bi-globe"></i>
-                </div>
-                <div class="metric-value">
-                  <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>+
-                </div>
-              </div>
-              <div class="metric-info">
-                <h4>Countries Represented</h4>
-                <p>Diverse international student body</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-12">
-            <div class="highlights-section" data-aos="fade-up" data-aos-delay="700">
-              <div class="row align-items-center">
-                <div class="col-lg-6">
-                  <div class="highlights-content">
-                    <h3 class="highlights-title">Building Tomorrow's Leaders Today</h3>
-                    <p class="highlights-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-                    <div class="highlights-features">
-                      <div class="feature-item" data-aos="fade-right" data-aos-delay="800">
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Innovative curriculum design</span>
-                      </div>
-                      <div class="feature-item" data-aos="fade-right" data-aos-delay="900">
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>World-class faculty expertise</span>
-                      </div>
-                      <div class="feature-item" data-aos="fade-right" data-aos-delay="1000">
-                        <i class="bi bi-check-circle-fill"></i>
-                        <span>Comprehensive student support</span>
-                      </div>
-                    </div>
-                    <div class="highlights-cta">
-                      <a href="#" class="cta-btn primary">Explore Programs</a>
-                      <a href="#" class="cta-btn secondary">Download Brochure</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="highlights-gallery">
-                    <div class="gallery-grid">
-                      <div class="gallery-item large" data-aos="zoom-in" data-aos-delay="800">
-                        <img src="{{ asset('front-assets/img/education/campus-3.webp') }}" alt="Campus Life" class="img-fluid" loading="lazy">
-                        <div class="gallery-overlay">
-                          <h5>Modern Campus</h5>
-                        </div>
-                      </div>
-                      <div class="gallery-item small" data-aos="zoom-in" data-aos-delay="900">
-                        <img src="{{ asset('front-assets/img/education/students-5.webp') }}" alt="Students" class="img-fluid" loading="lazy">
-                        <div class="gallery-overlay">
-                          <h6>Student Life</h6>
-                        </div>
-                      </div>
-                      <div class="gallery-item small" data-aos="zoom-in" data-aos-delay="1000">
-                        <img src="{{ asset('front-assets/img/education/teacher-7.webp') }}" alt="Faculty" class="img-fluid" loading="lazy">
-                        <div class="gallery-overlay">
-                          <h6>Expert Faculty</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Recent News Section -->
-    <section id="recent-news" class="recent-news section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent News</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="100">
-            <article class="post-item d-flex">
-              <div class="post-img">
-                <img src="{{ asset('front-assets/img/blog/blog-post-1.webp') }}" alt="" class="img-fluid" loading="lazy">
-              </div>
-
-              <div class="post-content flex-grow-1">
-                <a href="#" class="category">Design</a>
-
-                <h2 class="post-title">
-                  <a href="#">Sed ut perspiciatis unde omnis</a>
-                </h2>
-
-                <p class="post-description">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                </p>
-
-                <div class="post-meta">
-                  <div class="post-author">
-                    <img src="{{ asset('front-assets/img/person/person-f-12.webp') }}" alt="" class="img-fluid" loading="lazy">
-                    <span class="author-name">Lina Chen</span>
-                  </div>
-                  <span class="post-date">Mar 15, 2025</span>
-                </div>
-              </div>
-            </article>
-          </div><!-- End post item -->
-
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
-            <article class="post-item d-flex">
-              <div class="post-img">
-                <img src="{{ asset('front-assets/img/blog/blog-post-2.webp') }}" alt="" class="img-fluid" loading="lazy">
-              </div>
-
-              <div class="post-content flex-grow-1">
-                <a href="#" class="category">Product</a>
-
-                <h2 class="post-title">
-                  <a href="#">At vero eos et accusamus</a>
-                </h2>
-
-                <p class="post-description">
-                  Et harum quidem rerum facilis est et expedita distinctio nam libero tempore, cum soluta nobis est eligendi.
-                </p>
-
-                <div class="post-meta">
-                  <div class="post-author">
-                    <img src="{{ asset('front-assets/img/person/person-f-13.webp') }}" alt="" class="img-fluid" loading="lazy">
-                    <span class="author-name">Sofia Rodriguez</span>
-                  </div>
-                  <span class="post-date">Apr 22, 2025</span>
-                </div>
-              </div>
-            </article>
-          </div><!-- End post item -->
-
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
-            <article class="post-item d-flex">
-              <div class="post-img">
-                <img src="{{ asset('front-assets/img/blog/blog-post-3.webp') }}" alt="" class="img-fluid" loading="lazy">
-              </div>
-
-              <div class="post-content flex-grow-1">
-                <a href="#" class="category">Software Engineering</a>
-
-                <h2 class="post-title">
-                  <a href="#">Temporibus autem quibusdam</a>
-                </h2>
-
-                <p class="post-description">
-                  Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur.
-                </p>
-
-                <div class="post-meta">
-                  <div class="post-author">
-                    <img src="{{ asset('front-assets/img/person/person-m-10.webp') }}" alt="" class="img-fluid" loading="lazy">
-                    <span class="author-name">Lucas Thompson</span>
-                  </div>
-                  <span class="post-date">May 8, 2025</span>
-                </div>
-              </div>
-            </article>
-          </div><!-- End post item -->
-
-          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="400">
-            <article class="post-item d-flex">
-              <div class="post-img">
-                <img src="{{ asset('front-assets/img/blog/blog-post-4.webp') }}" alt="" class="img-fluid" loading="lazy">
-              </div>
-
-              <div class="post-content flex-grow-1">
-                <a href="#" class="category">Creative</a>
-
-                <h2 class="post-title">
-                  <a href="#">Nam libero tempore soluta</a>
-                </h2>
-
-                <p class="post-description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-
-                <div class="post-meta">
-                  <div class="post-author">
-                    <img src="{{ asset('front-assets/img/person/person-f-14.webp') }}" alt="" class="img-fluid" loading="lazy">
-                    <span class="author-name">Emma Patel</span>
-                  </div>
-                  <span class="post-date">Jun 30, 2025</span>
-                </div>
-              </div>
-            </article>
-          </div><!-- End post item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Recent News Section -->
-
     <!-- Events Section -->
     <section id="events" class="events section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Events</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1083,7 +682,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
@@ -1119,7 +718,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
@@ -1155,7 +754,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
@@ -1191,7 +790,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
@@ -1227,7 +826,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
@@ -1263,7 +862,7 @@
                   </div>
                 </div>
                 <div class="event-footer">
-                  <a href="#" class="register-btn">Register Now</a>
+                  <a href="#" class="register-btn">More Info</a>
                   <div class="event-share">
                     <i class="bi bi-share"></i>
                     <i class="bi bi-heart"></i>
